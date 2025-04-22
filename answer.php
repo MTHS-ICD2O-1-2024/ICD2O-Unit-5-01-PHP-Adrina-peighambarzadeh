@@ -37,11 +37,11 @@
           // input
           $userNumber = $_GET["user-number"];
           // process
-          if ($randomNumber === $userNumber) {
+          if ($randomNumber == $userNumber) {
             // output
             echo "You have guessed the right number!";
           }
-          if ($randomNumber !== $userNumber) {
+          if ($randomNumber != $userNumber) {
             // output
             echo "You have guessed the wrong number! The answer was " . $randomNumber . ".";
           }
