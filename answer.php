@@ -27,7 +27,6 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-<<<<<<< HEAD
         <img src="./images/dice.gif" alt="Dice gif image" width="500" />
       </div>
       <div class="page-content-answer">
